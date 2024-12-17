@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"name": "bernardo-gutman-siqueira.github.io",
+			"path": "../../projeto-atividade-extensao/bernardo-gutman-siqueira.github.io"
+		},
+		{
+			"name": "assets",
+			"path": "../assets"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {}
+}
