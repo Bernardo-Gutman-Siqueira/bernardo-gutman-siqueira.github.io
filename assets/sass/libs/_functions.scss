@@ -1,4 +1,4 @@
-/// Removes a specific item from a list.
+/// Remove item especifico da lista.
 /// @author Hugo Giraudel
 /// @param {list} $list List.
 /// @param {integer} $index Index.
@@ -35,7 +35,7 @@
 
 }
 
-/// Gets a value from a map.
+/// Pega valor do map.
 /// @author Hugo Giraudel
 /// @param {map} $map Map.
 /// @param {string} $keys Key(s).
@@ -54,35 +54,35 @@
 
 }
 
-/// Gets a duration value.
+/// pega um valor de duração.
 /// @param {string} $keys Key(s).
 /// @return {string} Value.
 @function _duration($keys...) {
 	@return val($duration, $keys...);
 }
 
-/// Gets a font value.
+/// pega valor da fonte.
 /// @param {string} $keys Key(s).
 /// @return {string} Value.
 @function _font($keys...) {
 	@return val($font, $keys...);
 }
 
-/// Gets a misc value.
+/// pega valor misc.
 /// @param {string} $keys Key(s).
 /// @return {string} Value.
 @function _misc($keys...) {
 	@return val($misc, $keys...);
 }
 
-/// Gets a palette value.
+/// pega valor da paleta.
 /// @param {string} $keys Key(s).
 /// @return {string} Value.
 @function _palette($keys...) {
 	@return val($palette, $keys...);
 }
 
-/// Gets a size value.
+/// pega valor size.
 /// @param {string} $keys Key(s).
 /// @return {string} Value.
 @function _size($keys...) {

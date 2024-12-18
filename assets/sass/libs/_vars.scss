@@ -1,18 +1,16 @@
-// Misc.
+// Miscelania.
 	$misc: (
 		z-index-base:		10000,
 		z-index-overlay:	100000,
 		max-spotlight:		20
 	);
-
-// Duration.
+// Duração.
 	$duration: (
 		navPanel:			0.5s,
 		transition:			0.2s,
 		landing-fadein:		1.5s
 	);
-
-// Size.
+// Tamanho.
 	$size: (
 		border-radius:		4px,
 		element-height:		3em,
@@ -20,16 +18,14 @@
 		navPanel:			275px,
 		container-width:	70em
 	);
-
-// Font.
+// Fonte.
 	$font: (
 		family:				('Roboto', Helvetica, sans-serif),
 		family-fixed:		('Courier New', monospace),
 		weight:				100,
 		weight-bold:		300
 	);
-
-// Palette.
+// Paleta de cores.
 	$palette: (
 		bg:					#1c1d26,
 		bg-transparent:		rgba(23,24,32,0.95),

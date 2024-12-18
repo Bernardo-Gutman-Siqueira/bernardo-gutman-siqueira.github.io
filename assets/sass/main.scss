@@ -7,14 +7,9 @@
 @import url('fontawesome-all.min.css');
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,100italic,300italic");
 
-/*
-	Landed by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+//CSS principal
 
 // Breakpoints.
-
 	@include breakpoints((
 		xlarge:   ( 1281px,  1680px ),
 		large:    ( 981px,   1280px ),
@@ -22,9 +17,7 @@
 		small:    ( 481px,   736px  ),
 		xsmall:   ( null,    480px  ),
 	));
-
 // Mixins.
-
 	@mixin line-icon($bg: _palette(bg), $fg: _palette(fg-bold)) {
 		@include icon;
 		$size: 1px;
@@ -40,9 +33,6 @@
 
 	$size-wrapper-pad-tb: 6em;
 	$size-wrapper-pad-lr: 3em;
-
-// Reset.
-// Based on meyerweb.com/eric/tools/css/reset (v2.0 | 20110126 | License: public domain)
 
 	html, body, div, span, applet, object,
 	iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -112,10 +102,6 @@
 		appearance: none;
 	}
 
-/* Basic */
-
-	// Set box model to border-box.
-	// Based on css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice
 		html {
 			box-sizing: border-box;
 		}
@@ -129,8 +115,6 @@
 	}
 
 	body {
-
-		// Stops initial animations until page loads.
 			&.is-preload {
 				*, *:before, *:after {
 					@include vendor('animation', 'none !important');
